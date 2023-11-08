@@ -1,0 +1,110 @@
+.navbar {
+  background-color: rgb(67, 4, 130);
+  font-weight: bolder;
+  font-style: italic;
+  color: gold;
+}
+
+#submit {
+  background-color: green;
+  font-weight: bold;
+  color: black;
+}
+
+body {
+  background-color: rgb(9, 9, 26);
+  color: white;
+}
+
+.card-body {
+  background-color: rgb(9, 9, 26);
+}
+
+.card-header {
+  background-color: rgb(9, 9, 26);
+}
+
+#popular {
+  color: rgba(255, 255, 255, 0.436);
+}
+
+#weather_data {
+  color: white;
+}
+
+li {
+  font-size: 20px;
+}
+
+a:hover {
+  transition: ease-out 0.5s;
+}
+
+#submit:hover {
+  color: white;
+}
+
+#weather_city:hover {
+  color: rgb(172, 129, 20);
+  transition: ease-in-out 0.5s;
+  font-weight: bolder;
+  cursor: default;
+  transform: rotate("20-deg") 2s;
+}
+
+#weather_popular:hover {
+  transition: linear 0.5s;
+  color: rgb(23, 169, 72);
+  text-transform: uppercase;
+  cursor: default;
+}
+
+#weather_table:hover {
+  transition: ease-in-out 0.2s;
+  font-weight: bolder;
+  font-size: large;
+  cursor: pointer;
+}
+
+#weather_city {
+  white-space: nowrap;
+  -webkit-animation: rightThenLeft 5s linear;
+}
+
+@-webkit-keyframes rightThenLeft {
+  0% {
+    margin-right: 0;
+    text-transform: uppercase;
+    text-shadow: mediumturquoise;
+  }
+
+  25% {
+    margin-right: 100%;
+    color: rgb(172, 129, 20);
+    text-transform: capitalize;
+  }
+
+  50% {
+    margin-right: 0;
+    text-transform: uppercase;
+    text-shadow: fuchsia;
+  }
+
+  75% {
+    margin-left: 0;
+    color: rgb(91, 12, 71);
+    text-transform: capitalize;
+  }
+
+  100% {
+    margin-left: 100%;
+    color: rgb(43, 120, 19);
+    text-transform: uppercase;
+    text-shadow: purple;
+  }
+
+  50% {
+    margin-left: 0;
+    text-transform: capitalize;
+  }
+}
